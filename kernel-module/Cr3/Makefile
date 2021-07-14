@@ -4,7 +4,7 @@ KVERS = $(shell uname -r)
 
 # Kernel modules
 
-obj-m += proc.o
+obj-m += printCr3Andpgd.o
 
 
 
