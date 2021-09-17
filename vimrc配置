@@ -1,1 +1,21 @@
+"基本配置
+set nocompatible    “与vi不兼容
+syntax on           "开启语法高亮
+set mouse-=a        "不使用鼠标
+set encoding=utf-8  "使用utf-8
 
+"缩进配置
+set autoindent      "自动缩进
+
+
+"外观配置
+set number          "显示行号
+
+"搜索配置
+set showmatch       "括号配对
+set hlsearch        "高亮显示搜索
+set ignorecase      "搜索忽略大小写
+
+"编辑配置
+set nobackup        "不创建备份文件
+set noswapfile      "不创建交换文件
