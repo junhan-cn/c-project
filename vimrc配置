@@ -6,7 +6,10 @@ set encoding=utf-8  "使用utf-8
 
 "缩进配置
 set autoindent      "自动缩进
-
+set shiftwidth=4    " 1 tab == 4 spaces
+set tabstop=4
+set expandtab       " Use spaces instead of tabs
+set smarttab        " Be smart when using tabs
 
 "外观配置
 set number          "显示行号
