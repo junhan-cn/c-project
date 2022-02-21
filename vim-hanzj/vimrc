@@ -7,6 +7,11 @@ colorscheme molokai
 set cindent
 set tabstop=4
 
+inoremap jk <ESC>
+set noswapfile
+
+
+
 "for cscope
 if has("cscope")                                                                                                                           
         set csprg=/usr/bin/cscope                                                                                                          
